@@ -12,4 +12,5 @@ static_sites:
     environment_slug: node-js
     instance_size_slug: basic-xxs
     routes:
-      - path: / 
+      - path: /
+    catchall_document: index.html 
