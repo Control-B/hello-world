@@ -1,0 +1,11 @@
+name: hello-world-mini
+region: nyc
+static_sites:
+  - name: hello-world-mini
+    build_command: npm install && npm run build
+    output_dir: dist
+    source_dir: /
+    environment_slug: node-js
+    instance_size_slug: basic-xxs
+    routes:
+      - path: / 
