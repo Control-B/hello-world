@@ -13,4 +13,7 @@ static_sites:
     instance_size_slug: basic-xxs
     routes:
       - path: /
+      - path: /static
+        redirect:
+          uri: /static.html
     catchall_document: index.html 
