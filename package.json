@@ -2,7 +2,6 @@
   "name": "hello-world-mini",
   "version": "1.0.0",
   "description": "A minimal React Hello World app",
-  "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html"
