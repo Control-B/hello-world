@@ -4,7 +4,7 @@
   "description": "A minimal React Hello World app",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html --public-url ./"
   },
   "keywords": [
     "react",
